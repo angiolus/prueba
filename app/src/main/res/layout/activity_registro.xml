@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro"
+    android:orientation="vertical"
+    android:background="@drawable/fondo">
+
+    <!--Primer Linear-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/icono">
+
+            </ImageView>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!--Segundo Linear-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <!--FILA USUARIO-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <!--TEXTVIWE USUARIO-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="Usuario: "
+                        android:textColor="@color/orange"
+                        android:textSize="30sp">
+
+                    </TextView>
+                </RelativeLayout>
+            </LinearLayout>
+            <!--EDITTETXT USUARIO-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="160dp"
+                        android:layout_height="55dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/jhbuh">
+                        <EditText
+                            android:id="@+id/signEmail"
+                            android:layout_width="150dp"
+                            android:layout_height="55dp"
+                            android:layout_centerInParent="true"
+                            android:inputType="text"
+                            android:textColor="@color/orange">
+
+                        </EditText>
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--FILA CLAVE-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <!--TEXTVIWE CLAVE-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="Clave: "
+                        android:textColor="@color/orange"
+                        android:textSize="30sp">
+
+                    </TextView>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!--EDITTETXT CLAVE-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <RelativeLayout
+                        android:layout_width="160dp"
+                        android:layout_height="55dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/jhbuh">
+                        <EditText
+                            android:id="@+id/signContraseña"
+                            android:layout_width="150dp"
+                            android:layout_height="55dp"
+                            android:layout_centerInParent="true"
+                            android:inputType="numberPassword"
+                            android:textColor="@color/orange">
+
+                        </EditText>
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <RelativeLayout
+                        android:layout_width="140dp"
+                        android:layout_height="65dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/ags">
+                        <Spinner
+                            android:id="@+id/spinnerRole"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:entries="@array/roles_array"
+                            android:layout_centerInParent="true"
+                            android:backgroundTint="@color/orange"
+                            ></Spinner>
+                    </RelativeLayout>
+
+
+
+
+
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--Tercero Linear-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/redirectLogin"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:text="tienes una cuenta?, iniciar"
+                android:textColor="@color/orange"></TextView>
+
+            <Button
+                android:id="@+id/botonRegistrar"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_centerInParent="true"
+                android:backgroundTint="@color/orange"
+                android:text="Registrar"
+                android:textColor="@color/black"
+                android:textSize="30sp">
+
+            </Button>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

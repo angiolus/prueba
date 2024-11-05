@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "175863187806",
+    "project_id": "pruebafirebase-2030c",
+    "storage_bucket": "pruebafirebase-2030c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175863187806:android:cb90e7e50c11fe886067cf",
+        "android_client_info": {
+          "package_name": "c.example.ouiy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYdf4ix6C62-cUjTBoY0lutTEFTiXBjk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175863187806:android:da5a2f48698373986067cf",
+        "android_client_info": {
+          "package_name": "cl.somos.apphalloween"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYdf4ix6C62-cUjTBoY0lutTEFTiXBjk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

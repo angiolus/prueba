@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ouiy</string>
+
+    <string-array name="roles_array">
+        <item>admin</item>
+        <item>pyme</item>
+    </string-array>
+
+
+    <string name="seleccionar_pyme">Seleccionar PYME</string>
+    <!-- En strings.xml -->
+    <string name="add_product">Add Product</string>
+    <string name="product_description">Description</string>
+    <string name="product_name">Name</string>
+    <string name="product_quantity">Quantity</string>
+
+
+
+
+
+</resources>

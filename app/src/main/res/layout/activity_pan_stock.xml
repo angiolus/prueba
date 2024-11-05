@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/pympeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" /> <!-- Asegura que sea al menos 48dp de alto -->
+
+
+    <Button
+        android:id="@+id/addProductButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_product" />
+
+    <EditText
+        android:id="@+id/productDescriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/product_description"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/productNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/product_name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/productQuantityEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/product_quantity"
+        android:inputType="number" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/productRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
