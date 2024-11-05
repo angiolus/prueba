@@ -37,7 +37,7 @@ public class AdminP extends AppCompatActivity {
         botonMeVenta.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(AdminP.this, PymeP.class));
+                startActivity(new Intent(AdminP.this, panVentas.class));
             }
         });
 
