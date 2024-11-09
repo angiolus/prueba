@@ -37,8 +37,12 @@ dependencies {
     implementation libs.constraintlayout
     implementation libs.firebase.auth
     implementation libs.firebase.firestore
+    implementation libs.firebase.inappmessaging
     testImplementation libs.junit
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
     implementation 'androidx.recyclerview:recyclerview:1.2.1' // Versión puede variar
+    implementation 'com.google.android.material:material:1.8.0' // O la última versión
+
+
 }

@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_stock"
+        android:icon="@drawable/ic_stock"
+        android:title="@string/stock"/>
+    <item
+        android:id="@+id/venta"
+        android:icon="@drawable/ic_sales"
+        android:title= "@string/ventas"/>
+    <item
+        android:id="@+id/nav_historial"
+        android:icon="@drawable/ic_history"
+        android:title="@string/history"/>
+    <item
+        android:id="@+id/nav_add_pyme"
+        android:icon="@drawable/ic_add_pyme"
+        android:title="@string/add"/>
+    <item
+        android:id="@+id/nav_view_pyme"
+        android:icon="@drawable/ic_view_pyme"
+        android:title="@string/ver"/>
+</menu>

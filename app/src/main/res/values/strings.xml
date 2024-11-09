@@ -14,5 +14,15 @@
     <string name="product_name">Name</string>
     <string name="product_quantity">Quantity</string>
 
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="stock">Productos</string>
+    <string name="ventas">Ventas</string>
+    <string name="history">Historial</string>
+    <string name="add">Añadir Pyme</string>
+    <string name="ver">Ver Pyme</string>
+
+
+
 
 </resources>
